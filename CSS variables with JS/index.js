@@ -2,7 +2,7 @@ var allIps=document.querySelectorAll('.choices input');
 
 function performAction() {
     var suffix=this.dataset.suffix||'';
-    console.log(this.value);
+    
     
     if(this.name=='blur'){
         document.documentElement.style.setProperty(`--${this.name}`,this.value/10+suffix);
