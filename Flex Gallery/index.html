@@ -13,13 +13,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
     <style>
-        .panels {
-            width: 100%;
-            height: 100%;
+        * {
+            margin: 0%;
+            padding: 0%;
+            color: white;
+            font-family: 'Chilanka', cursive;
         }
 
-        .panel {}
+        .panels {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .panel {
+            height: 100vh;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+            background-position: center;
+            font-size: 25px;
+            transition:
+                font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+                flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),background 0.3s;
+        }
+
+        .panel>* {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1 0 auto;
+            text-shadow: 2px 2px 5px black;
+            transition: transform 0.5s;
+        }
+
+        .panel.open {
+            flex: 5;
+            font-size: 40px;
+        }
+
+        .panel>*:first-child {
+            transform: translateY(-100%);
+        }
+
+        .panel.open-active>*:first-child {
+            transform: translateY(0);
+        }
+
+        .panel>*:last-child {
+            transform: translateY(100%);
+        }
+
+        .panel.open-active>*:last-child {
+            transform: translateY(0);
+        }
+
 
         .panel1 {
             background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
@@ -46,31 +98,45 @@
 <body>
     <div class="panels">
         <div class="panel panel1">
-            <span>HEY</span>
-            <span>LET'S</span>
-            <span>Dance</span>
+            <p>HEY</p>
+            <p>LET'S</p>
+            <p>Dance</p>
         </div>
         <div class="panel panel2">
-            <span>GIVE</span>
-            <span>TAKE</span>
-            <span>RECEIVE</span>
+            <p>GIVE</p>
+            <p>TAKE</p>
+            <p>RECEIVE</p>
         </div>
         <div class="panel panel3">
-            <span>EXPERIENCE</span>
-            <span>IT</span>
-            <span>TODAY</span>
+            <p>EXPERIENCE</p>
+            <p>IT</p>
+            <p>TODAY</p>
         </div>
         <div class="panel panel4">
-            <span>GIVE</span>
-            <span>ALL</span>
-            <span>YOU CAN</span>
+            <p>GIVE</p>
+            <p>ALL</p>
+            <p>YOU CAN</p>
         </div>
         <div class="panel panel5">
-            <span>LIFE</span>
-            <span>IN</span>
-            <span>MOTION</span>
+            <p>LIFE</p>
+            <p>IN</p>
+            <p>MOTION</p>
         </div>
     </div>
+    <script>
+        var panels=document.querySelectorAll('.panel');
+
+        function toggleImage() {
+            this.classList.toggle('open');
+        }
+        function toggleText(e) {
+            if(e.propertyName.includes('flex')){
+                this.classList.toggle('open-active');
+            }
+        }
+        panels.forEach(panel=>panel.addEventListener('click',toggleImage));
+        panels.forEach(panel=>panel.addEventListener('transitionend',toggleText));
+    </script>
 </body>
 
 </html>
