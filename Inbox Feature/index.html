@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            font-family: 'Chilanka', cursive;
+        }
+
+        html {
+            background: #ffc600;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .inbox {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+            padding-top:5px ;
+        }
+        .heading{
+            margin: 10px 0px;
+            border-bottom: solid;
+            border-color: rgb(128, 127, 127);
+            border-width: 1px;
+            padding: 10px;
+        }
+        .item{
+            margin: 10px 0px;
+            border-bottom: solid;
+            border-color: rgb(128, 127, 127);
+            border-width: 1px;
+            padding: 10px;
+        }
+        .choice{
+            width: 10px;
+            margin-right: 10px;
+            border-width: 1px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="inbox">
+        <div class="heading">
+            <span style="font-size: 2em; font">Inbox -</span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Data Science Project</span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Machine Learning Algorithms</span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Algorithms and Data structures</span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Web developement javascript </span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Non relational Database Mongodb</span>
+        </div>
+        <div class="item">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Web developement Node JS</span>
+        </div>
+        <div class="item" style="border-bottom: none;">
+            <input class="choice" type="checkbox">
+            <span class="itemName">Web developement React JS</span>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
