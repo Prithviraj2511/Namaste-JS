@@ -9,4 +9,6 @@ I did javascript for 30 days for getting good at javascript css and html which i
 # Day 1 - Drum Kit
 I learned about the key events , audio play , add and remove classes dynamically . It was basically musical instruments on playing on keyboard
 and also highlighting those tabs on screen .
+<br>
+<br>
 <img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/Drum-Project/Screenshot%20(9).png"/>
