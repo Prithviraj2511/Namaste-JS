@@ -11,4 +11,4 @@ I learned about the key events , audio play , add and remove classes dynamically
 and also highlighting those tabs on screen .
 <br>
 <br>
-<img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/Drum-Project/Screenshot%20(9).png"/>
+<img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/Drum-Project/Screenshot%20(9).png" style="width:60%"/>
