@@ -7,7 +7,7 @@ I did javascript for 30 days for getting good at javascript css and html which i
 <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 
 # Day 1 - Drum Kit
-I learned about the key events , audio play , add and remove classes dynamically . It was basically musical instruments on playing on keyboard
+I learned about the key events , audio play , add and remove classes dynamically.Also learned about at the end of transition remove some styles. It was basically musical instruments playing on keyboard
 and also highlighting those tabs on screen .
 <br>
 <br>
