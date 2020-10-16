@@ -30,28 +30,24 @@ body{
     position: absolute;
     margin-top: 145px;
     transition: all 0.05s;
+    transform: rotate(90deg);
+    transform-origin: 100%;
     transition-timing-function: cubic-bezier(0.86, -0.46, 0.32, 2.24);
 }
 .min-hand{
     height: 5px;
     width: 135px;
-    transform: rotate(90deg);
-    transform-origin: 100%;
     margin-left: 10px;
     
 }
 .hr-hand{
     height: 8px;
     width: 90px;
-    transform: rotate(90deg);
-    transform-origin:100% ;
     margin-left: 55px;
 }
 .sec-hand{
     height: 2px;
     width: 135px;
-    transform: rotate(90deg);
-    transform-origin:100% ;
     margin-left: 10px;
 }
 .dot{
