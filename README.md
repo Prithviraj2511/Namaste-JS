@@ -32,7 +32,7 @@ and also highlighting those tabs on screen .
 
 ---
 # Day 10 - Inbox Feature
-<img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/DrawDrawDraw/Screenshot%20(18).png" alt="Gallery" width="600"/>
+<img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/Inbox%20Feature/Screenshot%20(19).png" alt="Gallery" width="600"/>
 
 ---
 # Day 11 - Custom Video Player
