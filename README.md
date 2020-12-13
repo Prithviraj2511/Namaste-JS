@@ -1,4 +1,4 @@
-# 30-projects-30-days
+# Namaste JS
 I did javascript for 30 days for getting good at javascript css and html which is a base of any website. For 30 days I learned something new everyday.
 <br>
 <br>
