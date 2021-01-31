@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    font-size: 62.5%; /* 1rem => 10px */
+    /*
+    Width 998px - Font-size:55%
+    Width 780px - Font-size:45%
+     */
+}
+
+body{
+    background-color: #3498db;
+    padding: 5rem 10rem;
+}
+
+.container{
+    min-width: 30rem;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 4rem;
+}
+
+.container .fetch-error{
+    background-color: tomato;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    display: none;
+}
+.container .post{
+    margin-top: 5rem;
+    background: rgb(223, 216, 216);
+    width: 100%;
+    min-width: 30rem;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 14px 25px 26px 3px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 14px 25px 26px 3px rgba(0,0,0,0.61);
+    -moz-box-shadow: 14px 25px 26px 3px rgba(0,0,0,0.61);
+}
+
+.container .post-id{
+    width: 5rem;
+    height: 5rem;
+    background-color: #2980b9;
+    border-radius: 1rem;
+    color:  rgb(223, 216, 216);
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.container .title{
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem 0;
+    text-transform: capitalize;
+}
+
+.container .post-info{
+    font-size: 1.7rem;
+}
