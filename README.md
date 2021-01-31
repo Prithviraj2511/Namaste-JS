@@ -56,5 +56,5 @@ and also highlighting those tabs on screen .
 
 ---
 # Day 18 - Infinite Scroll
-<img src="https://github.com/Prithviraj2511/30-projects-30-days/blob/master/sort%20List/Screenshot%20(34).png" alt="Gallery" width="600"/>
+<img src="https://github.com/Prithviraj2511/Namaste-JS/blob/master/Infinite%20Scroll%20Posts/Screenshot%20(7).png" alt="Gallery" width="600"/>
 
